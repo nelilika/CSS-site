@@ -1,0 +1,490 @@
+body{
+  box-sizing: content-box;
+  -moz-box-sizing: border-box;
+}
+
+.header {
+  background-image: linear-gradient(rgba(28,16,45,0.9) -10px, rgba(37,29,104,0.7) 50%);
+  width: 100%;
+  height: 100px;
+  overflow:hidden;
+}
+
+.box-header {
+  white-space:nowrap;
+}
+
+.box-header div {
+  width:50%;
+  display:inline-block;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.box-header .box-tel {
+  width:50%;
+  display: inline-block;
+  vertical-align:top;
+  white-space: normal;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    font-size: 30px !important;
+    color: white;
+    white-space: normal;
+}
+
+.tel {
+  padding-top: 25px;
+}
+
+.page1 {
+  background: url(page1.jpg) no-repeat;
+  background-size: 100%;
+  height: 820px;
+  position: relative;
+}
+
+.left {
+  width: 50%;
+  height: 750px;
+  float: left;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.present {
+  margin: 0 auto;
+  background: url(wzcPi_croper_ru.jpeg) no-repeat;
+  height: 600px;
+  width: 60%;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.right {
+  width: 50%;
+  height: 600px;
+  float: right;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.form-buy {
+  border: 3px solid blue;
+  background-image: linear-gradient(rgba(61,175,237,0.9), rgba(187,245,236,0.7));
+  height: 200px;
+  width: 60%;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.he1 {
+  color: white;
+  font-size: 350%;
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 75%;
+  height: 40px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border: 2px solid blue;
+  padding-left: 10px;
+  background-color: #E3FFFD;
+  border-radius: 10px; /* Уголки */
+}
+
+input[type="submit"] {
+  width: 75%;
+  height: 40px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border: 2px solid blue;
+  padding-left: 10px;
+  background-color: #490FC9;
+  border-radius: 10px; /* Уголки */
+  color: white;
+  font-size: 24px;
+}
+
+.page2 {
+  background-image: linear-gradient(rgba(38,180,197,0.9), rgba(251,251,251,0.7));
+  width: 100%;
+  height: 470px;
+  overflow:hidden;
+}
+
+.box {
+  white-space:nowrap;
+}
+
+.box .center {
+  width:33%;
+  display:inline-block;
+  text-align: center;
+  white-space: normal;
+  padding-top: 27px;
+}
+
+.ptext {
+  padding-top: 15px;
+  font-size: 44px;
+}
+
+.fa {
+  padding-top: 25px;
+  font-size: 240px !important;
+}
+
+.fafa {
+  border: 3px solid blue;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.fafa:hover {
+  border: 3px dotted red;
+  border-radius: 30%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  transition: all .5s;
+}
+
+.page3 {
+  background-image: linear-gradient(rgba(176,234,255,0.9), rgba(187,126,255,0.7));
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+}
+
+.box-item {
+  white-space:nowrap;
+}
+.box-item .center{
+  width:25%;
+  height: auto;
+  display:inline-block;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.img {
+  width: 100%;
+}
+.img_block {
+    background:#f6f6f6;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    box-shadow: 10px 10px 6px -6px #777777;
+    display:block;
+    overflow: hidden;
+    position: relative;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    cursor:pointer;
+}
+.img_block .over_block {
+    background-color:rgba(0, 160, 150, 0);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 9900;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;
+}
+.img_block:hover .over_block {
+    display:block;
+    background-color:rgba(128, 128, 255, 0.3);
+}
+.img_block span {
+    background: rgba(128, 128, 255, 0.8);
+    width:100%;
+    height:0px;
+    text-transform:uppercase;
+    font-size:14px;
+    line-height:60px;
+    position:absolute;
+    display:block;
+    overflow: hidden;
+    bottom:0px;
+    left:0;
+    z-index: 9910;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.img_block:hover span {
+    bottom:0;
+    height:55px;
+    color: #ffffff;
+}
+
+.page4 {
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+}
+
+.page5 {
+  background: url(54004.jpg) no-repeat;
+  background-size: 100%;
+  height: auto;
+  width: 100%;
+  overflow:hidden;
+}
+
+.box-text {
+  white-space:nowrap;
+  margin-top: 10px;
+}
+
+.box-text div{
+  width:28%;
+  height: auto;
+  display:inline-block;
+  text-align:center;
+  padding: 30px;
+  white-space: normal;
+  font-size: 34px;
+  margin: 0 10px;
+}
+
+.box-text span {
+  text-align: center;
+}
+
+ ul {
+   list-style-type: circle !important;
+}
+
+.zag {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(28,16,45,0.9) -10px, rgba(37,29,104,0.7) 50%);
+  width: 100%;
+  height: 37px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 650px) {
+  .logo {
+    width: 87px;
+    height: 87px;
+  }
+
+  .header {
+    height: 85px;
+  }
+
+  .page1 {
+    height: auto;
+  }
+
+  .left {
+    float: none;
+    display: none;
+  }
+
+  .right {
+      float: none;
+      height: 150px;
+      padding-top: 10px;
+      width: 100%;
+      margin: 0 auto;
+
+  }
+  .present {
+    display: none;
+  }
+
+  .form-buy {
+    padding-top: 0px;
+    height: 100px;
+    width: 150px;
+  }
+  .he1 {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 75%;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    margin-top: 5px;
+    padding-left: 10px;
+    background-color: #E3FFFD;
+    border-radius: 10px; /* Уголки */
+  }
+
+  input[type="submit"] {
+    width: 75%;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+    padding-left: 10px;
+    background-color: #490FC9;
+    border-radius: 10px; /* Уголки */
+    color: white;
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 20px !important;
+  }
+
+  .page2 {
+  height: auto;
+ }
+
+  .box .center {
+    display: block;
+    width:100%;
+  }
+
+  .fafa {
+    width: 170px;
+    height: 170px;
+  }
+
+  .fafa:hover {
+    width: 170px;
+    height: 170px;
+  }
+
+  .fa {
+    padding-top: 10px;
+    font-size: 130px !important;
+  }
+
+  .ptext {
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
+  .box-item .center{
+    display:block;
+    width:100%;
+  }
+
+  #map {
+    height: 300px;
+  }
+
+  .page5 {
+    background: url(54004.jpg);
+    height: auto;
+  }
+
+  .box-text div {
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .footer {
+    padding: 5px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1290px) {
+  .present {
+    background-size: 280px;
+    width: 80%;
+  }
+
+  .page1 {
+    height: 480px;
+  }
+
+  .left {
+    height: 400px;
+  }
+
+  .right {
+    padding-top: 70px;
+    height: auto;
+  }
+
+  .form-buy {
+    padding-top: 15px;
+    height: 180px;
+    width: 250px;
+  }
+
+  .he1 {
+    font-size: 30px;
+  }
+.page2 {
+  height: auto;
+  margin-bottom: 20px;
+}
+  .fafa {
+    width: 180px;
+    height: 180px;
+  }
+
+  .fafa:hover {
+    width: 180px;
+    height: 180px;
+  }
+
+  .fa {
+    padding-top: 20px;
+    font-size: 140px !important;
+  }
+
+  .ptext {
+    padding-top: 15px;
+    font-size: 36px;
+  }
+
+  #map {
+    height: 400px;
+  }
+
+  .box-text div {
+    width: 22.5%;
+    font-size: 22px;
+  }
+}
